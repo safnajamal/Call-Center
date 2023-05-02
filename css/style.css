@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:ital,wght@0,300;0,400;1,200&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.icons{
+    font-size: 35px;
+    background: linear-gradient(#403c93 #ce30c0);
+}
+.banner{
+    background-image: linear-gradient(rgba(64, 60, 147, 0.8),rgba(206, 48, 192, 0.8)) , url(/images/b1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.banner-text{
+    color: #fff;
+    padding: 6rem;
+    font-size: 38px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.taglines{
+    font-size: 17.6px;
+}
+.btn{
+    background: rgb(243, 238, 238);
+    padding: 11px;
+    color: blue;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.text{
+    font-weight: bold;
+}
+.services , .blog{
+    background: #fcfafa;
+}
+.service-text{
+    font-size: 30px;
+}
+.service-para{
+    font-size: 24px;
+    text-align: center;
+}
+.card{
+    transition: all 0.3s ease-in;
+    border: none;
+}
+.card:hover{
+    box-shadow:  1px 3px 1px rgb(211, 209, 209);
+}
+
+.card-text{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+}
+.card-text:hover{
+    color: #b8126d;
+}
+.read-btn{
+    color: gray;
+    transition: all 0.3s ease-in;
+}
+.read-btn:hover{
+    color: #b8126d;
+    text-decoration: none;
+}
+.l-btn{
+    margin-left: 40%;
+}
+.learn-btn{
+    background: #e80566;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #e80566;
+    transition: all 0.6s ease-in;
+}
+.learn-btn:hover{
+    background: #fff;
+    color: #e80566;
+    text-decoration: none;
+}
+.banner-2{
+    background-image: linear-gradient(rgba(64, 60, 147, 0.8),rgba(206, 48, 192, 0.8)) , url(/images/s1.jpg);
+    background-size: cover;
+}
+.text-1{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+.taglines-2{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.t-image{
+    display: inline-block;
+}
+.t-image img{
+    border-radius: 50%;
+}
+.t-text{
+    float: right;
+    margin-left: 1rem;
+}
+.t-name{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.subs{
+    display: flex;
+    justify-content: space-around;
+}
+em{
+    color: #e80566;
+    font-style: normal;
+}
+.phone-number{
+    font-size: 24px;
+}
+.date{
+    font-size: 13px;
+    font-weight: lighter;
+}
+footer{
+    background-image:  linear-gradient(75deg, #1c2e7b 10%, #e60264);;
+}
+.f-text{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.f-txt{
+    font-size: 13px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.f-txt:hover{
+    font-weight: normal;
+    font-size: 13.2px;
+}
+.share a{
+    background-color: rgb(4, 4, 51);
+    color: #fff;
+    padding: 8px;
+}
+.box .card:hover{
+    color: black;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1024px) {
+    .banner-text{
+        padding: 1rem;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .taglines{
+        font-size: 11px;
+    }
+    .service-text{
+        font-size: 18px;
+    }
+    .service-para{
+        font-size: 13px;
+    }
+    .phone-number{
+        font-size: 14px;
+    }
+    .share-icons{
+        flex-direction: column-reverse;
+    }
+    .copyright{
+        margin-top: 10px;
+    }
+}
+  
